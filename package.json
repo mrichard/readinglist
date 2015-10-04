@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mrichard/readinglist#readme",
   "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-alpha.2",
     "angular2": "^2.0.0-alpha.38",
     "bootstrap": "^3.3.5",
     "eventemitter2": "^0.4.14",
