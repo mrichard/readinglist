@@ -2,17 +2,22 @@
 
 import {
 	Component,
-	View
+	View,
+	NgFor
 } from 'angular2/angular2';
 
+import {ReadingListForm} from '../ReadingListForm/ReadingListForm'
+
 @Component({
-	selector: 'hello-world'
+	selector: 'reading-list'
 })
 
 @View({
-	template: `<div>Hello World</div>`
+	template: `<section class="container">
+		<reading-list-form></reading-list-form>
+	</section>`,
+	directives: [ReadingListForm]
 })
 
-export class HelloWorld {
-
+export class ReadingListApp {
 }

@@ -19,7 +19,7 @@ module.exports = {
 			'angular2/router',
 			'angular2/http'
 		],
-		app: [path.resolve(ROOT_PATH, 'src/app/bootstrap')]
+		app: [path.resolve(ROOT_PATH, 'src/bootstrap')]
 	},
 
 	output: {
