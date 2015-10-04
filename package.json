@@ -1,0 +1,38 @@
+{
+  "name": "readinglist",
+  "version": "1.0.0",
+  "description": "reading list",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "server": "webpack-dev-server --inline --colors --display-error-details --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrichard/readinglist.git"
+  },
+  "keywords": [
+    "angular",
+    "2",
+    "app"
+  ],
+  "author": "Michel Richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrichard/readinglist/issues"
+  },
+  "homepage": "https://github.com/mrichard/readinglist#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.38",
+    "reflect-metadata": "^0.1.2",
+    "rx": "^4.0.0",
+    "typescript": "^1.6.2",
+    "zone.js": "^0.5.7"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^1.6.1",
+    "typescript-simple-loader": "^0.3.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
