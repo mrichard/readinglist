@@ -25,6 +25,7 @@
   "dependencies": {
     "angular2": "^2.0.0-alpha.38",
     "bootstrap": "^3.3.5",
+    "eventemitter2": "^0.4.14",
     "reflect-metadata": "^0.1.2",
     "rx": "^4.0.0",
     "typescript": "^1.6.2",
